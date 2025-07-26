@@ -1,0 +1,140 @@
+# Reading pref.tcl
+# 
+# 
+# 
+# 
+pwd
+# F:/Verilog_Assgn/A12. Pattern Detector
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:52:33 on Jul 19,2025
+# vlog -reportprogress 300 tb_dynamic.v 
+# -- Compiling module pattern
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:52:33 on Jul 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 21:52:33 on Jul 19,2025
+# Loading work.tb
+# Loading work.pattern
+# number of times detected=22
+# ** Note: $finish    : tb_dynamic.v(29)
+#    Time: 6145 ps  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb_dynamic.v line 29
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:54:04 on Jul 19,2025
+# vlog -reportprogress 300 tb_dynamic.v 
+# -- Compiling module pattern
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:54:04 on Jul 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:54:05 on Jul 19,2025, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 21:54:05 on Jul 19,2025
+# Loading work.tb
+# Loading work.pattern
+# number of times detected=22
+# ** Note: $finish    : tb_dynamic.v(27)
+#    Time: 6125 ps  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb_dynamic.v line 27
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:57:29 on Jul 19,2025
+# vlog -reportprogress 300 tb_dynamic.v 
+# -- Compiling module pattern
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:57:29 on Jul 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:57:30 on Jul 19,2025, Elapsed time: 0:03:25
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 21:57:30 on Jul 19,2025
+# Loading work.tb
+# Loading work.pattern
+# number of times detected=22
+# ** Note: $finish    : tb_dynamic.v(27)
+#    Time: 6115 ps  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb_dynamic.v line 27
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:20 on Jul 19,2025
+# vlog -reportprogress 300 tb_dynamic.v 
+# -- Compiling module pattern
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:58:20 on Jul 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:58:20 on Jul 19,2025, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 21:58:21 on Jul 19,2025
+# Loading work.tb
+# Loading work.pattern
+# number of times detected=24
+# ** Note: $finish    : tb_dynamic.v(27)
+#    Time: 6215 ps  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb_dynamic.v line 27
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:39 on Jul 19,2025
+# vlog -reportprogress 300 tb_dynamic.v 
+# -- Compiling module pattern
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:58:39 on Jul 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:58:40 on Jul 19,2025, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 21:58:40 on Jul 19,2025
+# Loading work.tb
+# Loading work.pattern
+# number of times detected=25
+# ** Note: $finish    : tb_dynamic.v(27)
+#    Time: 6265 ps  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb_dynamic.v line 27
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:59:26 on Jul 19,2025
+# vlog -reportprogress 300 tb_dynamic.v 
+# -- Compiling module pattern
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:59:27 on Jul 19,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 21:59:27 on Jul 19,2025, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 21:59:27 on Jul 19,2025
+# Loading work.tb
+# Loading work.pattern
+# number of times detected=26
+# ** Note: $finish    : tb_dynamic.v(27)
+#    Time: 6315 ps  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb_dynamic.v line 27
+quit -sim
+# End time: 22:04:59 on Jul 19,2025, Elapsed time: 0:05:32
+# Errors: 0, Warnings: 0

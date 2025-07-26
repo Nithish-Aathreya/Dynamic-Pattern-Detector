@@ -1,0 +1,70 @@
+1). 
+(a). Finite and infinite state machine
+     (1). Infinite SM: Number of states are not countable.
+                       Example: model the states of galaxies in universe
+
+     finite SM: Number of states are countable.
+                       Example: model the states of vending machine digital
+                       circuit. 
+
+`   (2). State machines are sequential circuit, so to store the previous
+     state flip flops are essential.In finite state machine as number of
+     states are countable exact requirement number of filp flops can be
+     determined, but in the case of infinite state machine cannot determine
+     the number of flip flops or hardware required to build circuit, hence
+     only finite state machines are fabricated.
+
+     (3). In the case of infinite state machine cannot determine
+     the number of flip flops or hardware required to build circuit, hence
+     only finite state machines are fabricated.
+
+(b). 2 types in finite state machine: i). Implicit state machine ii). Explicit state machine
+                                                                      -Moore  - Mealy
+
+    (ii).Moore:Transition between states only depends on current state.   
+        Mealy:Transition between states depends on current state and present input.  
+
+(c).Implicit state machine: States are not labelled by exclusive
+    name,transition between states rely upon the way procedural blocks are coded.
+   
+   Explicit state machine: States are labelled by exclusive
+    name,transition between states rely upon the logic implemented using
+    if-else or case statements blocks.                                                                    
+
+(e). -Infinte machine
+     - Finite machine
+            -implicit
+            -explicit
+                    -mealy
+                    -moore
+
+(f). In DFF states are not labelled exclusively by a name, instead the 2
+    states in DFF are automatically understood by the way of procedural blocks and
+    statements are coded, hence it is an example for implicit state machine.
+
+2). 
+(a). state machine is a diagram which reprsents relation of state transitions
+     between them based on current input and stae.
+
+(b). 
+     Infinite SM: Number of states are not countable.
+     finite SM: Number of states are countable.
+
+(c). Only finite state machine
+
+(d). 
+    Moore:Transition between states only depends on current state.   
+    Mealy:Transition between states depends on current state and present input.  
+
+(e).
+     In the case of infinite state machine cannot determine
+     the number of flip flops or hardware required to build circuit, hence
+     infinite state machines cannot be implemented in hardware.
+
+(f). > Understand the design in terms of states
+     > If states are finite, then it can be implemented in hardware.
+
+(g). Since pattern detector has finite states it can be impelemented in
+    hardware.
+
+(h). For pattern detector testing we generate stimulus from testbench.

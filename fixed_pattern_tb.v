@@ -1,0 +1,82 @@
+//`include "fixed_pattern_nol.v"
+`include "fixed_pattern_ol.v"
+
+module tb;
+
+parameter pttr=11'b10110110110 ;
+reg clk,rst,data_in;
+wire pattern_det;
+integer count,i;
+
+//reg[10:0]pattern = 11'b10110110110 ;
+
+pattern dut(clk,rst,data_in,pattern_det);
+
+initial
+begin
+    clk=0;
+    forever #5 clk=~clk;
+end
+
+initial
+begin
+
+reset();
+//test_1();
+test_2();
+@(posedge clk);
+@(posedge clk);
+
+$display("Total detection=%0d",count);
+#100;
+$finish;
+
+end
+
+task reset();
+    begin
+    rst=1;
+    data_in=0;
+    count=0;
+    @(posedge clk);
+    rst=0;
+    end
+endtask
+
+task test_1();
+    begin
+        repeat(500) begin
+        @(posedge clk);
+    data_in=$random %2 ;
+
+end
+@(posedge clk);
+data_in=0;
+    end
+endtask
+
+task test_2();
+    begin
+
+for(i=10;i>=0;i=i-1)
+begin
+@(posedge clk);
+data_in=pttr[i];
+end
+
+
+@(posedge clk);
+data_in=0;
+    end
+endtask
+
+initial
+begin
+    
+forever @(posedge clk)
+if(pattern_det)
+    count=count+1;
+
+end
+
+endmodule
